@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: validator.spring;version="0.0.1";uses:="javax.inject,j
+ avax.validation,org.springframework.context,org.springframework.conte
+ xt.annotation,org.springframework.validation.beanvalidation"
+DynamicImport-Package: *
+Bundle-Vendor: Osgiliath Inc.
+Bundle-Version: 0.0.1
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: org.hibernate.validation.osgi.service
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.hibernate.osgi_org.hibernate.validation.osgi.
+ service
+Import-Package: javax.inject,javax.validation,javax.validation.bootstr
+ ap,net.sf.cglib.core,net.sf.cglib.proxy,net.sf.cglib.reflect,org.aspe
+ ctj.lang,org.hibernate.validator,org.springframework.beans.factory,or
+ g.springframework.beans.factory.config,org.springframework.context,or
+ g.springframework.context.annotation,org.springframework.validation.b
+ eanvalidation
+
